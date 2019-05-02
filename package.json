@@ -81,5 +81,17 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "description": "In this TP you will build a small library of actions for handling a Pictures collection and then hook them into the app to make it functionnal.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThibautVerzo/epita-js-tp1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThibautVerzo/epita-js-tp1/issues"
+  },
+  "homepage": "https://github.com/ThibautVerzo/epita-js-tp1#readme"
 }

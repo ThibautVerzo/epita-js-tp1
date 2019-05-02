@@ -8,7 +8,11 @@
 * - you must use the functions from "../store"
 *
 */
+import {setState, getState} from "../store";
 
-const add = () => {};
+const add = (elements) => {
+    const list = [...getState(), elements];
+    setState(list);
+};
 
 export default add;

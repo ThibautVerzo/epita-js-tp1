@@ -7,7 +7,13 @@
 * - the updated element must not share the same reference as the previous one.
 *
 */
+import {getState, setState} from "../store";
 
-const update = () => {};
+const update = (index, element) => {
+    var list = getState();
+    if (index >= 0 && index < list.length)
+        list[index] = element;
+    setState(list);
+};
 
 export default update;
